@@ -1,0 +1,78 @@
+{
+  "name": "YetiForcePortal3",
+  "version": "0.1.0",
+  "author": "YetiForceCompany <info@yetiforce.com> (https://yetiforce.com)",
+  "license": "YetiForce Commercial License (more in licenses/License.txt)",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,ts,tsx}\"",
+    "generate": "openapi-typescript ./src/api/WebservicePremium.json -o ./src/api/types.d.ts",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.@(ts|tsx)": [
+      "prettier --write \"**/*.{js,ts,tsx}\""
+    ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "6.1",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@mdi/font": "7.0",
+    "@serwist/next": "latest",
+    "@serwist/sw": "latest",
+    "antd": "^5.9.2",
+    "autoprefixer": "10.4.15",
+    "dayjs": "^1.11.10",
+    "device-uuid": "^1.0.4",
+    "flag-icons": "^7.1.0",
+    "i18next": "^23.5.1",
+    "lodash": "^4.17.21",
+    "memoize-one": "^6.0.0",
+    "next": "13.4.x",
+    "postcss": "8.4.29",
+    "postcss-import": "^15.1.0",
+    "postcss-url": "^10.1.3",
+    "react": "18.2.x",
+    "react-big-schedule": "^4",
+    "react-dom": "18.2.x",
+    "react-draggable": "^4.4.6",
+    "react-i18next": "^13.2.2",
+    "react-icons": "^4.11.0",
+    "react-quill": "^2.0.0",
+    "signature_pad": "^4.1.7",
+    "swr": "^2.2.2",
+    "tailwindcss": "^3.3.3",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@serwist/precaching": "latest",
+    "@types/device-uuid": "^1.0.1",
+    "@types/google.maps": "^3.54.8",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^18.18.2",
+    "@types/react": "18.2.x",
+    "@types/react-dom": "18.2.x",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.x",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "openapi-typescript": "^6.6.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ]
+}
