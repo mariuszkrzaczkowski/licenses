@@ -135,7 +135,8 @@
       "Api\\": "api/webservice/",
       "Config\\": "config/",
       "Cron\\": "cron/",
-      "Exception\\": "include/exceptions/"
+      "Exception\\": "include/exceptions/",
+      "Tests\\":"tests/"
     }
   },
   "autoload-dev": {
