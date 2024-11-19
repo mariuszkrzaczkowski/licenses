@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2893a76553b7c60d8ecb6e78e5562436",
+    "content-hash": "0615fed76b21c127b3a1b8ac8c727b20",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -62,16 +62,16 @@
         },
         {
             "name": "ckeditor/ckeditor",
-            "version": "4.13.1",
+            "version": "4.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckeditor/ckeditor4-releases.git",
-                "reference": "83ca48a5356d10cc7aec6a9e36f327b8bc1b5f2a"
+                "reference": "acc0804803dcf44d452deee74363f66e617c0fc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckeditor/ckeditor4-releases/zipball/83ca48a5356d10cc7aec6a9e36f327b8bc1b5f2a",
-                "reference": "83ca48a5356d10cc7aec6a9e36f327b8bc1b5f2a",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor4-releases/zipball/acc0804803dcf44d452deee74363f66e617c0fc4",
+                "reference": "acc0804803dcf44d452deee74363f66e617c0fc4",
                 "shasum": ""
             },
             "type": "library",
@@ -100,7 +100,13 @@
                 "text",
                 "wysiwyg"
             ],
-            "time": "2019-12-09T13:24:37+00:00"
+            "support": {
+                "forum": "https://stackoverflow.com/tags/ckeditor",
+                "issues": "https://github.com/ckeditor/ckeditor4/issues",
+                "source": "https://github.com/ckeditor/ckeditor4",
+                "wiki": "https://ckeditor.com/docs/ckeditor4/latest/"
+            },
+            "time": "2024-08-21T11:39:26+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -5049,5 +5055,6 @@
         "ext-filter": "*",
         "ext-zlib": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
