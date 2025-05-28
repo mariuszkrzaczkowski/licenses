@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5041e13e4c50985f7feecc92c543cf3b",
+    "content-hash": "4bc605bce2dd8e4489ac287e2bd070d2",
     "packages": [
         {
             "name": "adhocore/jwt",
@@ -185,20 +185,20 @@
         },
         {
             "name": "chrome-php/chrome",
-            "version": "v1.11.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrome-php/chrome.git",
-                "reference": "dc463f0444b4a804046b7713222c0ccd1aa7b67e"
+                "reference": "9dce1e484a6703e487da5e219d39a8d2fb3d8afa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrome-php/chrome/zipball/dc463f0444b4a804046b7713222c0ccd1aa7b67e",
-                "reference": "dc463f0444b4a804046b7713222c0ccd1aa7b67e",
+                "url": "https://api.github.com/repos/chrome-php/chrome/zipball/9dce1e484a6703e487da5e219d39a8d2fb3d8afa",
+                "reference": "9dce1e484a6703e487da5e219d39a8d2fb3d8afa",
                 "shasum": ""
             },
             "require": {
-                "chrome-php/wrench": "^1.6",
+                "chrome-php/wrench": "^1.7",
                 "evenement/evenement": "^3.0.1",
                 "monolog/monolog": "^1.27.1 || ^2.8 || ^3.2",
                 "php": "^7.4.15 || ^8.0.2",
@@ -253,22 +253,22 @@
             ],
             "support": {
                 "issues": "https://github.com/chrome-php/chrome/issues",
-                "source": "https://github.com/chrome-php/chrome/tree/v1.11.0"
+                "source": "https://github.com/chrome-php/chrome/tree/v1.14.0"
             },
-            "time": "2024-03-17T22:51:54+00:00"
+            "time": "2025-05-28T11:31:22+00:00"
         },
         {
             "name": "chrome-php/wrench",
-            "version": "v1.6.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrome-php/wrench.git",
-                "reference": "1e383b4368a895bc1fad6dbff3b67484774bb398"
+                "reference": "f82965181bd325ffb02be247676831a1f3e71912"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrome-php/wrench/zipball/1e383b4368a895bc1fad6dbff3b67484774bb398",
-                "reference": "1e383b4368a895bc1fad6dbff3b67484774bb398",
+                "url": "https://api.github.com/repos/chrome-php/wrench/zipball/f82965181bd325ffb02be247676831a1f3e71912",
+                "reference": "f82965181bd325ffb02be247676831a1f3e71912",
                 "shasum": ""
             },
             "require": {
@@ -315,9 +315,9 @@
             ],
             "support": {
                 "issues": "https://github.com/chrome-php/wrench/issues",
-                "source": "https://github.com/chrome-php/wrench/tree/v1.6.0"
+                "source": "https://github.com/chrome-php/wrench/tree/v1.7.1"
             },
-            "time": "2024-03-17T22:37:49+00:00"
+            "time": "2025-05-01T11:18:17+00:00"
         },
         {
             "name": "ckeditor/ckeditor",
@@ -5592,8 +5592,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -5666,8 +5666,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -9585,7 +9585,7 @@
         "ext-zlib": "*",
         "ext-hash": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "ext-mongodb": "1.17.0"
     },
