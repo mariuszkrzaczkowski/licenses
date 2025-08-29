@@ -82,7 +82,7 @@
     "chrome-php/chrome": "^v1.4.0",
     "yiisoft/yii2-mongodb": "~3.0.0",
     "setasign/fpdf": "1.8.*",
-    "setasign/fpdi": "^v2.3.6",
+    "setasign/fpdi": "^2.6.4",
     "notihnio/php-multipart-form-data-parser": "1.0.0",
     "symfony/filesystem": "^v6.4.13",
     "league/oauth2-google": "^4.0",
