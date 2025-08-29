@@ -32,7 +32,7 @@
     "@pnotify/desktop": "^5",
     "@pnotify/font-awesome5": "^5",
     "@pnotify/mobile": "^5",
-    "@tabler/icons-webfont": "^3.1.0",
+    "@tabler/icons-webfont": "^3.31.0",
     "add": "^2.0.6",
     "animate.css": "^4.0",
     "block-ui": "^2.70.1",
@@ -90,12 +90,15 @@
     "vue": "^2.6.11",
     "whatwg-fetch": "^3.6.2"
   },
-  "devDependencies": {
-    "@crowdin/cli": "3"
-  },
   "resolutions": {},
   "bugs": {
     "url": "https://github.com/YetiForceCompany/YetiForceCRM/issues"
   },
-  "homepage": "https://github.com/YetiForceCompany/YetiForceCRM#readme"
+  "homepage": "https://github.com/YetiForceCompany/YetiForceCRM#readme",
+  "scripts": {
+    "prod": "yarn clean:all && yarn install --modules-folder './public_html/libraries' --production=true --ignore-optional && yarn clean",
+    "dev": "yarn install --modules-folder './public_html/libraries' --production=false --ignore-optional && yarn clean",
+    "clean:all": "rm -rf yarn.lock public_html/libraries",
+    "clean": "yarn autoclean --force --modules-folder './public_html/libraries'"
+  }
 }
