@@ -38,7 +38,7 @@
 		"device-uuid": "^1.0.4",
 		"flag-icons": "6.15.0",
 		"i18next": "^23.5.1",
-		"lodash": "^4.17.21",
+		"lodash": "^4.17.23",
 		"memoize-one": "^6.0.0",
 		"next": "13.4.x",
 		"react": "18.2.x",
