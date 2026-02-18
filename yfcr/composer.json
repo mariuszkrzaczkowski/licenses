@@ -52,6 +52,7 @@
     "ext-filter": "*",
     "ext-zlib": "*",
     "ext-hash": "*",
+    "ext-libxml": "*",
     "composer/ca-bundle": "^1.1",
     "sabre/dav": "^4.1",
     "smarty/smarty": "^v5",
@@ -70,9 +71,9 @@
     "yetiforce/csrf-magic": "^v1.1.7",
     "php-debugbar/php-debugbar": "2.*",
     "yetiforce/yii2": "^2.0.43",
-    "yetiforce/yetiforcepdf": "^0.1.44",
+    "yetiforce/yetiforcepdf": "^0.1.46",
     "adhocore/jwt": "^1.0",
-    "zbateson/mail-mime-parser": "^2.0",
+    "zbateson/mail-mime-parser": "^3.0",
     "mlocati/spf-lib": "^3",
     "phpmailer/dkimvalidator": "^v0.3",
     "league/climate": "^3.6",
@@ -89,7 +90,8 @@
     "thenetworg/oauth2-azure": "^2.1",
     "webklex/php-imap": "^6.1.0",
     "bogdaan/open-location-code": "dev-master",
-    "doctrine/migrations": "^3.7"
+    "doctrine/migrations": "^3.7",
+    "n1ebieski/ksef-php-client": "^0.26.0"
   },
   "require-dev": {
     "zircote/swagger-php": "^4.0",
@@ -122,6 +124,12 @@
     "classmap-authoritative": false,
     "platform": {
       "ext-mongodb": "1.17.0"
+    },
+    "audit": {
+      "ignore": ["PKSA-sd3x-9jwt-jn4s", "PKSA-4d16-gn5t-2wt7"]
+    },
+    "allow-plugins": {
+      "php-http/discovery": true
     }
   },
   "autoload": {
