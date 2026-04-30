@@ -1,6 +1,6 @@
 {
 	"name": "@yetiforce/portal3",
-	"version": "0.2.2",
+	"version": "0.2.8",
 	"author": "YetiForceCompany <info@yetiforce.com> (https://yetiforce.com)",
 	"license": "YetiForce Commercial License (more in licenses/License.txt)",
 	"private": true,
@@ -9,7 +9,7 @@
 		"build": "next build && yarn license-pkg",
 		"start": "npx serve@latest out",
 		"lint": "next lint",
-		"license-pkg": "yarn licenses list --json --no-progress --production > License.json && yarn licenses list --no-progress --production > License.log",
+		"license-pkg": "yarn licenses list --no-progress --production > License.log",
 		"format": "prettier --write \"**/*.{js,ts,tsx}\"",
 		"format-check": "prettier --check \"**/*.{js,ts,tsx}\"",
 		"generate": "openapi-typescript ./src/api/WebservicePremium.json -o ./src/api/types.d.ts",
@@ -27,7 +27,7 @@
 		]
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "6.5.2",
+		"@fortawesome/fontawesome-free": "6.7.2",
 		"@googlemaps/react-wrapper": "^1.1.35",
 		"@mdi/font": "7.4.47",
 		"@serwist/next": "8.4.4",
@@ -48,6 +48,7 @@
 		"react-draggable": "^4.4.6",
 		"react-i18next": "^13.2.2",
 		"react-icons": "5.2.1",
+		"react-pdf": "^9.2.1",
 		"react-quill": "^2.0.0",
 		"signature_pad": "4.2.0",
 		"swr": "2.2.2",
