@@ -629,10 +629,10 @@ postcss@^8.4.14:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-quasar@^1.6.1:
-  version "1.22.10"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.22.10.tgz#15709988a4f27607925581f1bcae306938bc7d26"
-  integrity sha512-AMZ4SZ9i8+b5wdphzmgy60qYFkdTK/dB8KNgdqJ2t8+Hnnhi1IncldEFQlcqLT9diyg5RHgAHAW4GoAZMswgOw==
+quasar@^2.23.1:
+  version "2.23.1"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.23.1.tgz#616bb7e288118f88f7c970bb8f6fbc0bf1c41cbf"
+  integrity sha512-jr6z9DDAmilv7NZ0m+hQe1PjqE5X4lj4OEalGgr27fgFVRUUOEUUJAkBYXnH1+uhv5tTwZ/CxTBilFyesBsZqQ==
 
 resize-observer-polyfill@^1.5.1:
   version "1.5.1"
