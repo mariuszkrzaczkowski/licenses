@@ -36,7 +36,7 @@
     "add": "^2.0.6",
     "animate.css": "^4.0",
     "block-ui": "^2.70.1",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^5.3.3",
     "bootstrap-datepicker": "^1.9.0",
     "bootstrap-daterangepicker": "^3.0.4",
     "bootstrap-tabdrop": "https://github.com/jmschabdach/bootstrap-tabdrop",
