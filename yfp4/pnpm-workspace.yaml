@@ -1,0 +1,14 @@
+allowBuilds:
+  '@parcel/watcher': true
+  '@swc/core': true
+  esbuild: true
+  sharp: false
+  unrs-resolver: false
+
+updateConfig:
+  ignoreDependencies:
+    - "@fortawesome/fontawesome-free"
+    - "@mdi/font"
+    - "@tabler/icons-webfont"
+    - "device-uuid"
+    - "flag-icons"
